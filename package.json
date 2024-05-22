@@ -1,6 +1,6 @@
 {
   "name": "@plugnotes/react-qr-scanner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library to scan qr codes in react.",
   "author": "Yudiel Curbelo (Owner) / Plugnotes (Fork)",
   "license": "MIT",

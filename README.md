@@ -2,20 +2,19 @@
 
 - Scan codes using a smartphone camera or webcam.
 
-### Demo
-
-Checkout the [Demo](https://yudielcurbelo.github.io/react-qr-scanner/).
+### Forked 
+From the [yudielcurbelo github](https://github.com/yudielcurbelo/react-qr-scanner)
 
 ### Install
 
-    yarn add @yudiel/react-qr-scanner
+    yarn add @plugnotes/react-qr-scanner
 
-    npm install @yudiel/react-qr-scanner
+    npm install @plugnotes/react-qr-scanner
 
 ### Usage
 
 ```jsx
-import { Scanner } from '@yudiel/react-qr-scanner';
+import { Scanner } from '@plugnotes/react-qr-scanner';
 
 const App = () => {
     return <Scanner onScan={(result) => console.log(result)} />

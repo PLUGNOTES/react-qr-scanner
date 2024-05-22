@@ -18,10 +18,10 @@ interface IFinderProps {
 }
 
 export default function Finder(props: IFinderProps) {
-    const { scanning, loading, capabilities, border = 35, onOff, torch, startScanning, stopScanning } = props;
+    const { scanning, loading, capabilities, border = 0, onOff, torch, startScanning, stopScanning } = props;
 
     const color = 'rgba(255, 0, 0, 0.5)';
-    const stokeWidth = 3;
+    const stokeWidth = 0;
 
     return (
         <div>
@@ -34,7 +34,7 @@ export default function Finder(props: IFinderProps) {
                     left: 0,
                     zIndex: 1,
                     boxSizing: 'border-box',
-                    border: `${border >= 35 ? border : 35}px solid rgba(0, 0, 0, 0.2)`
+                    border: `${border}px solid rgba(0, 0, 0, 0.2)`
                 }}
             >
                 {loading && (

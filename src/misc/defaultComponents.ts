@@ -6,6 +6,6 @@ export const defaultComponents: IScannerComponents = {
     audio: true,
     tracker: outline,
     onOff: false,
-    finder: true,
+    finder: false,
     torch: true
 };

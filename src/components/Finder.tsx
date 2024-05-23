@@ -25,10 +25,10 @@ interface IFinderProps {
 }
 
 export default function Finder(props: IFinderProps) {
-    const { scanning, loading, video, border = 35, result, options, count, onOff, tracker = false, switchTorch, startScanning, stopScanning, getSettings } = props;
+    const { scanning, loading, video, border = 0, result, options, count, onOff, tracker = false, switchTorch, startScanning, stopScanning, getSettings } = props;
 
     const color = 'rgba(255, 0, 0, 0.5)';
-    const stokeWidth = 3;
+    const stokeWidth = 0;
 
     return (
         <Fragment>
@@ -43,7 +43,7 @@ export default function Finder(props: IFinderProps) {
                     left: 0,
                     zIndex: 1,
                     boxSizing: 'border-box',
-                    border: `${border >= 35 ? border : 35}px solid rgba(0, 0, 0, 0.2)`,
+                    border: `${border}px solid rgba(0, 0, 0, 0.2)`,
                     position: 'absolute',
                     width: '100%',
                     height: '100%'
